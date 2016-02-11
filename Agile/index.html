@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Introduction aux méthodes agiles</title>
+
+        <meta name="description" content="Petite introduction aux méthodes agiles">
+        <meta name="author" content="Guillaume Roques">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h1>Introduction aux méthodes agiles</h1>
+                </section>
+
+                <section>
+                    <h1>Objectifs</h1>
+                    <p class="fragment">Découvrir les méthodes agiles</p>
+                    <p class="fragment">Découvrir SCRUM</p>
+                </section>
+
+                <section>
+                    <h1>Les origines</h1>
+                    <ul>
+                        <li>RAD (Rapid Application Development) - 1991</li>
+                        <li>SCRUM - 1995</li>
+                        <li>XP (Extreme programming) - 1999</li>
+                    </ul>
+
+                    <aside class="notes">
+                        Méthodes agiles -> plus pragmatiques que les méthodes traditionnelles.<br />
+                        Implication du demandeur/client - réactivité à ses demandes.<br />
+                        Visent la satisfaction réelle du client en priorité aux termes d'un contrat de développement.<br>
+                        1er travaux 1930-40 - projet pour motorola 1957 -> XP
+                    </aside>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Les bases</h1>
+                        <p class="fragment">Incrémental</p>
+                        <p class="fragment">Itératif</p>
+                        <p class="fragment">Adaptif</p>
+                    </section>
+
+                    <section>
+                        <img src="img/IteratiIncrementalAdaptatif.jpg"/>
+                        <small style="font-size: 0.5em">"<a href="https://commons.wikimedia.org/wiki/File:IteratiIncrementalAdaptatif.jpg#/media/File:IteratiIncrementalAdaptatif.jpg" target="_blank">IteratiIncrementalAdaptatif</a>" par <a href="https://commons.wikimedia.org/w/index.php?title=User:Vickoff&amp;action=edit&amp;redlink=1" class="new" title="User:Vickoff (page inexistante)" target="_blank">Vickoff</a> — <span class="int-own-work" lang="fr">Travail personnel</span>. Sous licence <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0" target="_blank">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/" target="_blank">Wikimedia Commons</a>.</small>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>Le manifeste</h1>
+                        <p>Texte rédigé en 2001 par 17 experts en développements d'applications</p>
+                        <p>Il définit 4 valeurs et 12 principes</p>
+                        <p><a href="http://agilemanifesto.org" target="_blank">http://agilemanifesto.org</a>
+
+                        <aside class="notes">
+                            wiki, scrum, RAD, XP
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h1>Les valeurs</h1>
+                        <span class="fragment"><span class="fragment highlight-blue"><b>Les individus et leurs interactions</b></span><span class="fragment"> plus que les processus et les outils</span></p>
+                        <span class="fragment"><span class="fragment highlight-blue"><b>Des logiciels opérationnels</b></span><span class="fragment"> plus qu’une documentation exhaustive</span></p>
+                        <span class="fragment"><span class="fragment highlight-blue"><b>La collaboration avec les clients</b></span><span class="fragment"> plus que la négociation contractuelle</span></p>
+                        <span class="fragment"><span class="fragment highlight-blue"><b>L’adaptation au changement</b></span><span class="fragment"> plus que le suivi d’un plan</span></p>
+
+                        <aside class="notes">
+                            Nous reconnaissons la valeur des seconds éléments, mais privilégions les premiers.
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h1>Les principes</h1>
+                        <p><small>Notre plus haute priorité est de satisfaire le <span class="fragment highlight-blue">client</span> en livrant rapidement et régulièrement des fonctionnalités à grande valeur ajoutée</small></p>
+                        <p><small>Accueillez positivement les <span class="fragment highlight-blue">changements</span> de besoins, même tard dans le projet</small></p>
+                        <p><small>Livrez <span class="fragment highlight-blue">fréquemment</span> un logiciel opérationnel avec des cycles de quelques semaines à quelques mois et une préférence pour les plus courts</small></p>
+                        <p><small>Les <span class="fragment highlight-blue">utilisateurs</span> ou leurs représentants et les <span class="fragment highlight-blue">développeurs</span> doivent travailler <span class="fragment highlight-blue">ensemble</span> quotidiennement tout au long du projet</small></p>
+                        <p><small>Réalisez les projets avec des personnes motivées. Fournissez-leur l’environnement et le soutien dont ils ont besoin et faites-leur <span class="fragment highlight-blue">confiance</span> pour atteindre les objectifs fixés</small></p>
+                        <p><small>La méthode la plus simple et la plus efficace pour transmettre de l’information à l'équipe de développement et à l’intérieur de celle-ci est le <span class="fragment highlight-blue">dialogue</span> en face à face</small></p>
+                    </section>
+
+                    <section>
+                        <h1>Les principes</h1>
+                        <p><small>Un <span class="fragment highlight-blue">logiciel opérationnel</span> est la principale mesure d’avancement</small></p>
+                        <p><small>Les processus Agiles encouragent un <span class="fragment highlight-blue">rythme de développement soutenable</span>. Ensemble, les commanditaires, les développeurs et les utilisateurs devraient être capables de maintenir indéfiniment un rythme constant</small></p>
+                        <p><small>Une attention continue à l'<span class="fragment highlight-blue">excellence technique</span> et à une bonne conception renforce l’Agilité</small></p>
+                        <p><small>La <span class="fragment highlight-blue">simplicité</span> – c’est-à-dire l’art de minimiser la quantité de travail inutile – est essentielle</small></p>
+                        <p><small>Les meilleures architectures, spécifications et conceptions émergent d'<span class="fragment highlight-blue">équipes autoorganisées</span></small></p>
+                        <p><small>À intervalles réguliers, l'équipe réfléchit aux moyens de <span class="fragment highlight-blue">devenir plus efficace</span>, puis règle et modifie son comportement en conséquence</small></p>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <h1>SCRUM</h1>
+                        <h3>Définition</h3>
+                        <p>Scrum est un cadre de travail permettant de répondre à des problèmes complexes et changeants, tout en livrant de manière productive et créative des produits de la plus grande valeur possible.</p>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>Léger</li>
+                                <li>Simple à gérer</li>
+                                <li>Difficile à maitriser</li>
+                                <li>Pas une méthode de dev</li>
+                            </ul>
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h1>SCRUM</h1>
+                        <h3>Les 3 piliers</h3>
+                        <p class="fragment">Transparence</p>
+                        <p class="fragment">Inspection</p>
+                        <p class="fragment">Adaptation</p>
+
+                        <aside class="notes">
+                            <b>Transparence</b> Langage commun entre l'équipe et le management. Doit permettre à tout observateur d'obtenir rapidement une bonne compréhension du projet.<br>
+                            <b>Inspection</b> À intervalle régulier, point sur les différents artéfacts produits, afin de détecter toute variation indésirable. Ne pas faire trop fréquemment, ou par un inspecteur mal formé : cela nuirait à l'avancement du projet.<br>
+                            <b>Adaptation</b> Si dérive le processus doit alors être adapté. Scrum fournit des rituels, durant lesquels cette adaptation est possible.
+                        </aside>
+                    </section>
+                </section>
+
+                    <section>
+                        <h1>L'équipe</h1>
+                        <p class="fragment">Product Owner</p>
+                        <p class="fragment">Scrum Master</p>
+                        <p class="fragment">Development team</p>
+
+                        <aside class="notes">
+                        <b>PO</b> représentant des clients et des utilisateurs. Il est «responsable de maximiser la valeur du produit et du travail de l'équipe de développement». Il s'agit d'«une personne et non d'un comité».<br>
+                        <b>SM</b> responsable de la compréhension, de l'adhésion et de la mise en œuvre de la méthode. C'est un «leader au service de l'équipe», il assiste chaque rôle de l'équipe scrum dans son activité et promeut le changement des interactions entre les rôles dans le but de maximiser la valeur de ce que produit l'équipe. Son autorité s'exerce sur le processus de développement<br>
+                        <b>Devs</b> Responsabilité de livrer à chaque fin d'itération une nouvelle version de l'application enrichie de nouvelles fonctionnalités et respectant le niveau de qualité nécessaire pour être livré.<br>
+                        3 à 9 - auto-organisée - pluridisciplinaire
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h1>Le cérémonial</h1>
+                        <p class="fragment">Sprint Planning</p>
+                        <p class="fragment">Daily Scrum</p>
+                        <p class="fragment">Sprint Review</p>
+                        <p class="fragment">Sprint Retrospective</p>
+
+                        <aside class="notes">
+                            <b>Sprint</b> 1. prévoir ce qui sera développé durant le prochain sprint (estimations) - 2. Découper en tâches - sprint goal (4h)<br>
+                            <b>SU</b> permet aux développeurs de faire un point de coordination sur les tâches en cours et sur les difficultés rencontrées (15mn)<br>
+                            <b>Review</b> l'équipe scrum et les parties-prenantes pour valider l'incrément de produit qui a été réalisé pendant le sprint - éléments finis (2h)<br>
+                            <b>Retro</b> adaptation aux changements qui surviennent au cours du projet et l'amélioration continue du processus de réalisation (1.5h)
+                        </aside>
+                    </section>
+
+                    <section>
+                        <h1>Les Artéfacts</h1>
+                        <p class="fragment">Product Backlog</p>
+                        <p class="fragment">Sprint Backlog</p>
+                        <p class="fragment">Burn-down/Burn-up chart</p>
+                        <p class="fragment">Definition of Done</p>
+
+                        <aside class="notes">
+                            <b>PB</b> une liste ordonnée de tous les éléments nécessaires au produit. C'est un document qui évolue constamment au cours de la vie du produit et n'est «jamais fini». Chaque élément du carnet représente une fonctionnalité, besoin, amélioration et correctif<br>
+                            <b>SP</b> possède un but et on lui associe une liste d'éléments du PB - objet du sprint ne peut être modifié - la composition de l'équipe reste constante - la qualité n'est pas négociable - la liste d'éléments est sujette à négociations entre le PO et les devs.<br>
+                            <b>Chart</b> réprésentation graphique de la quantité de travail restante dans le sprint<br>
+                            <b>DoD</b> Tous les critères qui définissent qu'un élément est terminé
+                        </aside>
+                    </section>
+
+                    <section>
+                        <img src="img/Scrum_process.png"/>
+                        <small style="font-size: 0.5em">"<a href="https://commons.wikimedia.org/wiki/File:Scrum_process.svg#/media/File:Scrum_process.svg" target="_blank">Scrum process</a>" By <a href="https://commons.wikimedia.org/w/index.php?title=User:Lakeworks&amp;action=edit&amp;redlink=1" class="new" title="User:Lakeworks (page does not exist)" target="_blank">Lakeworks</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://www.gnu.org/copyleft/fdl.html" title="GNU Free Documentation License" target="_blank">GFDL</a> via <a href="https://commons.wikimedia.org/wiki/" target="_blank">Commons</a>.</small>
+                    </section>
+
+                    <section>
+                        <img src="img/Scrum_task_board.jpg"/>
+                        <small style="font-size: 0.5em">"<a href="https://commons.wikimedia.org/wiki/File:Scrum_task_board.jpg#/media/File:Scrum_task_board.jpg" target="_blank">Scrum task board</a>" by <a rel="nofollow" class="external text" href="http://www.flickr.com/people/plutor/" target="_blank">Logan Ingalls</a> - <a rel="nofollow" class="external text" href="http://www.flickr.com/photos/plutor/5260265039/" target="_blank">Task board</a>. Licensed under <a title="Creative Commons Attribution 2.0" href="http://creativecommons.org/licenses/by/2.0" target="_blank">CC BY 2.0</a> via <a href="https://commons.wikimedia.org/wiki/" target="_blank">Commons</a>.</small>
+                    </section>
+
+                    <section>
+                        <img src="img/SampleBurndownChart.png" />
+                        <small style="font-size: 0.5em">"<a href="https://commons.wikimedia.org/wiki/File:SampleBurndownChart.png#/media/File:SampleBurndownChart.png" target="_blank">SampleBurndownChart</a>" by <a href="https://commons.wikimedia.org/w/index.php?title=User:PabloStraub&amp;action=edit&amp;redlink=1" class="new" title="User:PabloStraub (page does not exist)" target="_blank">Pablo Straub</a> - <span class="int-own-work" lang="en">Own work</span>. Licensed under Public Domain via <a href="https://commons.wikimedia.org/wiki/" target="_blank">Commons</a>.</small>
+                    </section>
+
+                <section>
+                    <h1>Sources</h1>
+                    <p><a href="https://fr.wikipedia.org/wiki/M%C3%A9thode_agile" target="_blank">Wikipedia</a></p>
+                    <p><a href="https://www.scrum.org/" target="_blank">Scrum.org</a></p>
+                </section>
+
+                <section>
+                    <h1>Questions ?</h1>
+
+                    <aside class="notes">
+                        <ul>
+                            <li>Jira / Pivotal tracker</li>
+                            <li>Tableau blanc</li>
+                            <li>KanBoard / Kados</li>
+                        </ul>
+                    </aside>
+                </section>
+
+
+                <section>
+                    <p><a href="mailto:guillaume.roques@gmail.com">Guillaume Roques</a></p>
+                    <p>Slides: <a href="https://www.ric2000.org/docs/Agile/" target="_blank">View</a> - <a href="https://www.ric2000.org/docs/Agile/agile.pdf" target="_blank">PDF</a> - <a href="https://github.com/GuillaumeRoques/docs/tree/master/Agile/" target="_blank">Download sources</a></p>
+                    <p>License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY</a></p>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+                // Optional reveal.js plugins
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true },
+                    { src: 'plugin/notes/notes.js', async: true }
+                ]
+            });
+
+        </script>
+
+    </body>
+</html>
